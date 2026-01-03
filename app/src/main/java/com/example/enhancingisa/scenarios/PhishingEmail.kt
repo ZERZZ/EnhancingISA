@@ -36,10 +36,7 @@ import java.net.URL
 import java.text.SimpleDateFormat
 import java.util.*
 
-private const val OPENAI_API_KEY =
-    "sk-proj-BTOyDAYEr64daBDiFqFIdFZO-eR-6tPH_EDQK-QGTeQKN3L3RG1kVCukFq3pLz" +
-            "D_9w4qPg5VrfT3BlbkFJzIg7IjF1m11d7VG95IPq9RYhB7s9DTNgBC_Cf4a_RWyIdtql" +
-            "5zyGDD0cFDBszJKysmgyrhYQ4A"
+private const val OPENAI_API_KEY = "INCLUDE_YOUR_API_KEY_HERE"
 
 private data class EmailScenario(
     val senderName: String,
